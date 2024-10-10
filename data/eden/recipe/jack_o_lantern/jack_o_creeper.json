@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:jack_o_lantern"
-    },
+    "ingredient": "minecraft:jack_o_lantern",
     "result": {
         "id": "minecraft:player_head",
         "count": 4,

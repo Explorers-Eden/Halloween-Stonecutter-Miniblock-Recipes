@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:carved_pumpkin"
-    },
+    "ingredient": "minecraft:carved_pumpkin",
     "result": {
         "id": "minecraft:player_head",
         "count": 4,

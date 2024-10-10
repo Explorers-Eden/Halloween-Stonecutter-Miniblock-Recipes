@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:skeleton_skull"
-    },
+    "ingredient": "minecraft:skeleton_skull",
     "result": {
         "id": "minecraft:player_head",
         "count": 4,
