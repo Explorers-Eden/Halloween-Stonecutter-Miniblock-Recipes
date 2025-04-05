@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.parrot.imitate.ghast",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Ghast Pumpkin\",\"translate\":\"miniblock.eden.carved_ghast_pumpkin\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Ghast Pumpkin",
+                "translate":"block.halloween_miniblocks.carved_ghast_pumpkin",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

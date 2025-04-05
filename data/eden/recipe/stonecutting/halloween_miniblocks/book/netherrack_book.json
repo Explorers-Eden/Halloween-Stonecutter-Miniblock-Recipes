@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 1,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:item.book.page_turn",
-            "minecraft:custom_name": "{\"fallback\":\"Netherrack Book\",\"translate\":\"miniblock.eden.netherrack_book\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Netherrack Book",
+                "translate":"block.halloween_miniblocks.netherrack_book",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

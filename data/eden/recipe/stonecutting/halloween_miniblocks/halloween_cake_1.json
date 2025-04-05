@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.sniffer.eat",
-            "minecraft:custom_name": "{\"fallback\":\"Halloween Cake\",\"translate\":\"miniblock.eden.halloween_cake\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Halloween Cake",
+                "translate":"block.halloween_miniblocks.halloween_cake",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

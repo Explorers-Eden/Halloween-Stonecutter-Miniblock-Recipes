@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.skeleton.ambient",
-            "minecraft:custom_name": "{\"fallback\":\"White Skull Candle (unlit)\",\"translate\":\"miniblock.eden.white_skull_candle_unlit\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"White Skull Candle (unlit)",
+                "translate":"block.halloween_miniblocks.white_skull_candle_unlit",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

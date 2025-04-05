@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:block.pointed_dripstone.drip_lava_into_cauldron",
-            "minecraft:custom_name": "{\"fallback\":\"Cauldron filled with Swamp Water\",\"translate\":\"miniblock.eden.swamp_water\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Cauldron filled with Swamp Water",
+                "translate":"block.halloween_miniblocks.swamp_water",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.parrot.imitate.creeper",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Creeper Pumpkin\",\"translate\":\"miniblock.eden.carved_creeper_pumpkin\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Creeper Pumpkin",
+                "translate":"block.halloween_miniblocks.carved_creeper_pumpkin",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

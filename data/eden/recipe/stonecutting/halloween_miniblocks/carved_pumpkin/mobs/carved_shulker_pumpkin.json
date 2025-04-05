@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.parrot.imitate.shulker",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Shulker Pumpkin\",\"translate\":\"miniblock.eden.carved_shulker_pumpkin\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Shulker Pumpkin",
+                "translate":"block.halloween_miniblocks.carved_shulker_pumpkin",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

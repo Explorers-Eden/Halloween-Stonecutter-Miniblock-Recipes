@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:block.pumpkin.carve",
-            "minecraft:custom_name": "{\"type\":\"translatable\",\"translate\":\"block.minecraft.carved_pumpkin\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Pumpkin",
+                "translate":"block.halloween_miniblocks.carved_pumpkin",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

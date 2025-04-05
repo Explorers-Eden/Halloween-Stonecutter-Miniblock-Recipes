@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.skeleton.ambient",
-            "minecraft:custom_name": "{\"fallback\":\"Occult Skull Candle\",\"translate\":\"miniblock.eden.occult_skull_candle\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Occult Skull Candle",
+                "translate":"block.halloween_miniblocks.occult_skull_candle",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

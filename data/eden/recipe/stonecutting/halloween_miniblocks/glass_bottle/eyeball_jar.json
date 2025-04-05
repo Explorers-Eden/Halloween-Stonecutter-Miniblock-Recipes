@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 1,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:block.glass.break",
-            "minecraft:custom_name": "{\"fallback\":\"Eyeball Jar\",\"translate\":\"miniblock.eden.eyeball_jar\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Eyeball Jar",
+                "translate":"block.halloween_miniblocks.eyeball_jar",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

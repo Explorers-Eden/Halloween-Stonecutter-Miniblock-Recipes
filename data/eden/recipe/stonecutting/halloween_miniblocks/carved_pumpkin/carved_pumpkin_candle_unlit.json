@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:block.candle.extinguish",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Pumpkin Candle (unlit)\",\"translate\":\"miniblock.eden.carved_pumpkin_candle_unlit\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Pumpkin Candle (unlit)",
+                "translate":"block.halloween_miniblocks.carved_pumpkin_candle_unlit",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

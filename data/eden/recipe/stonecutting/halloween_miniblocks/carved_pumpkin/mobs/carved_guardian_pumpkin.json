@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.parrot.imitate.guardian",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Guardian Pumpkin\",\"translate\":\"miniblock.eden.carved_guardian_pumpkin\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Guardian Pumpkin",
+                "translate":"block.halloween_miniblocks.carved_guardian_pumpkin",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

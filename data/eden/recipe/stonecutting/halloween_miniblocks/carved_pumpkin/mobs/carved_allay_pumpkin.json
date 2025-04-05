@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.allay.ambient_without_item",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Allay Pumpkin\",\"translate\":\"miniblock.eden.carved_allay_pumpkin\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Allay Pumpkin",
+                "translate":"block.halloween_miniblocks.carved_allay_pumpkin",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

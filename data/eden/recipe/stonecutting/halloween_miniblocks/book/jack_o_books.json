@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 1,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:item.book.page_turn",
-            "minecraft:custom_name": "{\"fallback\":\"Jack o'Books\",\"translate\":\"miniblock.eden.jack_o_books\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Jack o'Books",
+                "translate":"block.halloween_miniblocks.jack_o_books",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

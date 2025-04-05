@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:ambient.soul_sand_valley.mood",
-            "minecraft:custom_name": "{\"fallback\":\"Soul Jack o'Lantern\",\"translate\":\"miniblock.eden.soul_jack_o_lantern\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Soul Jack o'Lantern",
+                "translate":"block.halloween_miniblocks.soul_jack_o_lantern",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

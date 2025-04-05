@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.skeleton.ambient",
-            "minecraft:custom_name": "{\"fallback\":\"Skeleton Chalice\",\"translate\":\"miniblock.eden.skeleton_chalice\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Skeleton Chalice",
+                "translate":"block.halloween_miniblocks.skeleton_chalice",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

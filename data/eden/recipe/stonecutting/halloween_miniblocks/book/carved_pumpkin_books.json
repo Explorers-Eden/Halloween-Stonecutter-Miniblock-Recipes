@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 1,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:item.book.page_turn",
-            "minecraft:custom_name": "{\"fallback\":\"Carved Pumpkin Books\",\"translate\":\"miniblock.eden.carved_pumpkin_books\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Carved Pumpkin Books",
+                "translate":"block.halloween_miniblocks.carved_pumpkin_books",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

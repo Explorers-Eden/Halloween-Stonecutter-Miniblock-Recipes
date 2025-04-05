@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:entity.parrot.imitate.creeper",
-            "minecraft:custom_name": "{\"fallback\":\"Jack o'Creeper\",\"translate\":\"miniblock.eden.jack_o_creeper\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Jack o'Creeper",
+                "translate":"block.halloween_miniblocks.jack_o_creeper",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {

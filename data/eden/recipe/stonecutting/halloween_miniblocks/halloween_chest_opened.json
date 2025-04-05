@@ -5,9 +5,13 @@
         "id": "minecraft:player_head",
         "count": 4,
         "components": {
-            "minecraft:rarity": "uncommon",
+            "minecraft:rarity": "common",
             "minecraft:note_block_sound": "minecraft:block.ender_chest.open",
-            "minecraft:custom_name": "{\"fallback\":\"Halloween Chest (opened)\",\"translate\":\"miniblock.eden.halloween_chest_opened\",\"italic\":false}",
+            "minecraft:custom_name": {
+                "fallback":"Halloween Chest (opened)",
+                "translate":"block.halloween_miniblocks.halloween_chest_opened",
+                "italic":false
+            },
             "minecraft:profile": {
                 "properties": [
                     {
